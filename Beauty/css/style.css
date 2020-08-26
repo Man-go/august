@@ -1,0 +1,199 @@
+/*Zeroing*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #E5E5E5;
+  color: #333333;
+  font-size: 14px;
+}
+
+.wrapper {
+  max-width: 1110px;
+  padding: 0px 5px 0 15px;
+  margin: 0 auto;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: center;
+  padding: 18px 0;
+}
+
+.nav-header > li {
+  margin: 0px 0px 0px 36px;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: center;
+  padding: 18px 0;
+}
+
+.nav-content > li {
+  margin: -5px 0px -2px 45px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.header {
+  background-color: #fff;
+  padding-top: 11px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 0 16px 0;
+  margin: 9px -22px 4px 0px;
+}
+
+.logo {
+  color: #66C05D;
+  font-size: 36px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.logo-imgage {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-image: url("../img/logo.svg");
+  margin: 0px 20px 0px 0px;
+}
+
+.logo span {
+  letter-spacing: 4px;
+}
+
+.header-info span {
+  font-size: 16px;
+}
+
+.header-info button {
+  border: 2px solid #66C05D;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 9px 26px 9px 23px;
+  margin-left: 38px;
+}
+
+.header-bottom {
+  padding: 15px 0;
+}
+
+.header-bottom .nav-header, nav-content {
+  font-size: 16px;
+}
+
+hr {
+  border: 1px solid #EFEFEF;
+}
+
+.banner {
+  background-image: url("../img/bg.png");
+  padding: 195px 0 204px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 15px 0px;
+  color: #fff;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.btn {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 10px 42px 10px 46px;
+  letter-spacing: 0.05em;
+}
+
+.banner p {
+  margin: 42px 0px 58px 0px;
+  max-width: 315px;
+  font-size: 14px;
+  line-height: 20px;
+}
