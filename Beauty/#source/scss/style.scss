@@ -18,15 +18,15 @@ body{
 .nav-header{
 	display: flex;
 	justify-content: center;
-	padding: 18px 0;
-	margin: 0px 0px 0px 0px;
+	margin: 0px -10px 0px 0px;
+	padding: 18px 0px 18px 0px;;
 }
 .nav-header:last-child{
 	margin-left: 0;
 }
 .nav-header > li{
 	margin: 0px 0px 0px 0px;
-	padding: 0px 15px 0px 0px;
+	padding: 0px 15px 0px 15px;
 }
 
 .nav-content{
