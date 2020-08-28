@@ -345,6 +345,11 @@ hr {
   cursor: pointer;
 }
 
+.grid-btn:hover {
+  background-color: #fff;
+  color: #333333;
+}
+
 .footer-top {
   display: flex;
   align-items: center;
