@@ -10,7 +10,7 @@ body{
 }
 .wrapper{
 	max-width: 1110px;
-	padding: 0px 5px 0 15px;
+	padding: 0px 12px 0 8px;
 	margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@ body{
 .nav-header{
 	display: flex;
 	justify-content: center;
-	margin: 0px -10px 0px 0px;
+	margin: 0px -10px  0px 0px;
 	padding: 18px 0px 18px 0px;;
 }
 .nav-header:last-child{
@@ -32,7 +32,7 @@ body{
 .nav-content{
 	display: flex;
 	justify-content: center;
-	padding: 18px 2px 18px 0px;
+	padding: 18px 0px 18px 0px;
 }
 
 .nav-content > li{
@@ -42,7 +42,7 @@ body{
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 19px;
-	padding: 0px 10px 0px 31px;
+	padding: 0px 4px 0px 36px;
 }
 
 
@@ -69,7 +69,7 @@ body{
 	width: 80px;
 	height: 80px;
 	background-image: url("../img/logo.svg");
-	margin: 0px 20px 0px 0px;
+	margin: 0px 19px 0px 7px;
 }
 .logo span {
 	letter-spacing: 4px;
@@ -84,7 +84,7 @@ body{
 	font-size: 14px;
 	border-radius: 40px;
 	background-color: transparent;
-	padding: 9px 27px 8px 24px;
+	padding: 9px 20px 8px 24px;
 	margin-left: 37px;
 	transition: 0.2s ease;
 	cursor: pointer;
@@ -110,7 +110,7 @@ hr {
 	padding: 195px 0 204px 0;
 	background-repeat: no-repeat;
 	background-size: cover; 
-	background-position: -71px 0px;
+	background-position: 6px 0px;
 	color: #fff;
 }
 
@@ -145,7 +145,7 @@ hr {
 .bg-white{
 	background-color: #fff;
 	// padding: 23px 30px 34px 30px;
-	padding: 0px 30px 0px 30px;
+	padding: 0px 43px 0px 30px;
 }
 .bg-green{
 	background-color: #66C05D;
@@ -187,6 +187,7 @@ hr {
 	max-width: 166px;
 	padding: 10px 11px 10px 23px;
 	margin: 0px 0px 0px 2px;
+	// border-radius: 30px;
 }
 .catalog{
 	padding-top: 75px;
@@ -243,7 +244,7 @@ hr {
 	border-radius: 30px;
 	background-color: #66C05D;
 	color: #fff;
-	padding: 6px 41px;
+	padding: 7px 40px;
 	transition: 0.2s ease;
 	cursor: pointer;
 }
@@ -256,7 +257,7 @@ hr {
 	align-items: center;
 	justify-content: space-between;
 	padding: 36px 3px 37px 0px;
-	margin: 2px -24px 0px 0px;
+	margin: 2px -30px 0px 0px;
 }
 .footer-info{
 	display: flex;
@@ -275,7 +276,7 @@ hr {
 	font-size: 14px;
 	border-radius: 20px;
 	background-color: transparent;
-	padding: 9px 26px 9px 23px;
+	padding: 9px 25px 9px 24px;
 	margin-left: 41px;
 	transition: 0.2s ease;
 	cursor: pointer;
@@ -286,11 +287,11 @@ hr {
 .social{
 	display: flex;
 	align-items: center;
-	padding-left: 0;
+	padding-left: 6px;
 	justify-content: space-around;
 }
 .social-item{
-	margin-right: 19px;
+	margin-right: 20px;
 }
 .social-link{
 	display: block;
